@@ -1,0 +1,308 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>QuickQ · 酒红海报式说明页</title><meta name="description" content="QuickQ 以专栏作者的口吻，把套餐梯度、使用步骤与常见问题写成一份可反复阅读的说明：酒红与象牙白的海报式版面上，先看清价格与权益，再决定是否需要。"><meta name="keywords" content="QuickQ,QuickQ 套餐,QuickQ 使用说明,QuickQ 常见问题,网络工具订阅"><meta name="robots" content="index,follow"><link rel="canonical" href="https://p-e4e1ca9675.gxcut.cn/"><meta property="og:type" content="website"><meta property="og:title" content="QuickQ · 酒红海报式说明页"><meta property="og:description" content="QuickQ 以专栏作者的口吻，把套餐梯度、使用步骤与常见问题写成一份可反复阅读的说明：酒红与象牙白的海报式版面上，先看清价格与权益，再决定是否需要。"><meta property="og:url" content="https://p-e4e1ca9675.gxcut.cn/"><meta property="og:site_name" content="QuickQ"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "url": "https://p-e4e1ca9675.gxcut.cn/", "name": "QuickQ · 酒红海报式说明页", "description": "QuickQ 以专栏作者的口吻，把套餐梯度、使用步骤与常见问题写成一份可反复阅读的说明：酒红与象牙白的海报式版面上，先看清价格与权益，再决定是否需要。", "inLanguage": "zh-CN"}</script><meta name="publisher-task" content="32c4e7c911123c34c2a9c85d:8f8a2f24f707e8f8ff3654f416899a8d9c25ceb875154cda849c0722b527323e:46a4fce532b86cbc7bcc"></head><body id="top"><style>
+:root{--wine:#6b1220;--wine-deep:#4a0c17;--wine-soft:#8f2133;--ivory:#f6f0e4;--ivory-2:#efe6d5;--ink:#231a17;--ink-soft:#5b4c46;--line:#d9cbb6}
+*{box-sizing:border-box}
+html{}
+body{margin:0;background:var(--ivory);color:var(--ink);font-family:"Songti SC","Noto Serif CJK SC",Georgia,"Times New Roman",serif;line-height:1.75;font-size:17px;padding-bottom:64px}
+a{color:var(--wine);text-decoration:none;border-bottom:1px solid rgba(107,18,32,.35)}
+a:hover{border-bottom-color:var(--wine)}
+h1,h2,h3{font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;line-height:1.2;margin:0}
+p{margin:0 0 1em}
+main{display:block}
+
+/* 海报首屏 */
+.hero{background:var(--wine);color:var(--ivory);padding:clamp(28px,6vw,72px) clamp(20px,5vw,64px) clamp(36px,7vw,88px);position:relative;overflow:hidden}
+.hero-top{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap;font-family:"PingFang SC","Microsoft YaHei",system-ui,sans-serif;font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:rgba(246,240,228,.72);border-bottom:1px solid rgba(246,240,228,.28);padding-bottom:14px}
+.hero h1{font-size:clamp(64px,17vw,232px);letter-spacing:-.03em;line-height:.86;margin:clamp(20px,5vw,54px) 0 0;font-weight:800;word-break:break-word}
+.hero h1 .dot{color:#e9b9a8}
+.hero-sub{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(20px,4vw,56px);margin-top:clamp(24px,4.5vw,52px);align-items:end}
+.hero-sub .lede{font-size:clamp(18px,2.2vw,25px);line-height:1.55;color:rgba(246,240,228,.94);max-width:34ch;margin:0}
+.hero-meta{font-family:"PingFang SC","Microsoft YaHei",system-ui,sans-serif;font-size:13px;line-height:1.9;color:rgba(246,240,228,.78);border-left:1px solid rgba(246,240,228,.35);padding-left:18px}
+.hero-meta strong{display:block;color:var(--ivory);letter-spacing:.06em;font-weight:600}
+
+/* 通用区块 */
+section{padding:clamp(44px,7vw,92px) clamp(20px,5vw,64px);max-width:1120px;margin:0 auto}
+.eyebrow{font-family:"PingFang SC","Microsoft YaHei",system-ui,sans-serif;font-size:12px;letter-spacing:.3em;color:var(--wine-soft);text-transform:uppercase;margin:0 0 14px}
+h2{font-size:clamp(26px,4vw,40px);letter-spacing:-.01em;color:var(--wine-deep);margin-bottom:14px}
+.section-lede{max-width:62ch;color:var(--ink-soft);margin-bottom:clamp(26px,4vw,44px);font-size:17px}
+
+/* 左侧色条卡片 */
+.card{background:#fdfaf3;border-left:5px solid var(--wine);padding:22px 24px;margin-bottom:18px}
+.card h3{font-size:19px;color:var(--wine-deep);margin-bottom:8px}
+.card p{margin:0;color:var(--ink-soft);font-size:16px}
+.card .step-no{font-family:"PingFang SC","Microsoft YaHei",system-ui,sans-serif;font-size:12px;letter-spacing:.24em;color:var(--wine-soft);display:block;margin-bottom:6px}
+
+/* 阶梯套餐 */
+.stairs{counter-reset:stair}
+.stair{position:relative;background:#fdfaf3;border-left:5px solid var(--wine);padding:26px clamp(20px,4vw,40px);margin:0 0 16px;display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:clamp(18px,3vw,44px);align-items:start}
+.stair.s1{margin-right:clamp(0px,7vw,112px)}
+.stair.s2{margin-right:clamp(0px,3.5vw,56px)}
+.stair.s3{margin-right:0}
+.stair.featured{border-left-color:var(--wine-deep);background:#fbf5ea;box-shadow:inset 0 0 0 1px var(--line)}
+.stair-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px 14px;margin-bottom:6px}
+.stair-head h3{font-size:22px;color:var(--wine-deep)}
+.tag{font-family:"PingFang SC","Microsoft YaHei",system-ui,sans-serif;font-size:11px;letter-spacing:.18em;background:var(--wine);color:var(--ivory);padding:3px 9px;border-radius:2px}
+.price{font-family:"PingFang SC","Microsoft YaHei",system-ui,sans-serif;font-size:clamp(26px,4vw,34px);font-weight:700;color:var(--wine);line-height:1.1}
+.price small{font-size:13px;font-weight:400;color:var(--ink-soft);letter-spacing:.05em;display:block;margin-top:4px}
+.stair ul{margin:10px 0 0;padding-left:1.1em;color:var(--ink-soft);font-size:16px}
+.stair li{margin-bottom:6px}
+.stair .note{font-size:13px;color:#8a7669;margin:12px 0 0}
+
+/* 客户端 */
+.clients{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.client{background:#fdfaf3;border-left:5px solid var(--wine-soft);padding:20px 22px}
+.client h3{font-size:17px;color:var(--wine-deep);margin-bottom:6px}
+.client p{margin:0;font-size:15px;color:var(--ink-soft)}
+
+/* FAQ 主题分组 */
+.faq-group{margin-bottom:clamp(28px,4vw,44px)}
+.faq-group > h3{font-size:14px;letter-spacing:.22em;color:var(--wine-soft);text-transform:uppercase;font-family:"PingFang SC","Microsoft YaHei",system-ui,sans-serif;padding-bottom:10px;border-bottom:1px solid var(--line);margin-bottom:6px}
+.qa{border-left:5px solid transparent;padding:18px 22px;background:#fdfaf3;margin-bottom:12px}
+.qa:nth-child(odd){border-left-color:var(--ivory-2)}
+.qa:nth-child(even){border-left-color:var(--wine)}
+.qa h4{margin:0 0 6px;font-size:17px;font-family:"PingFang SC","Microsoft YaHei",system-ui,sans-serif;color:var(--wine-deep)}
+.qa p{margin:0;color:var(--ink-soft);font-size:16px}
+
+/* 页脚 */
+footer{background:var(--wine-deep);color:rgba(246,240,228,.8);padding:clamp(34px,5vw,64px) clamp(20px,5vw,64px) 28px;font-size:15px}
+footer .foot-inner{max-width:1120px;margin:0 auto;display:grid;grid-template-columns:1.3fr 1fr;gap:clamp(20px,4vw,56px)}
+footer h2{color:var(--ivory);font-size:22px;margin-bottom:10px}
+footer a{color:var(--ivory);border-bottom-color:rgba(246,240,228,.4)}
+footer p{margin:0 0 .8em}
+footer .fine{max-width:1120px;margin:26px auto 0;padding-top:16px;border-top:1px solid rgba(246,240,228,.22);font-size:12.5px;letter-spacing:.04em;color:rgba(246,240,228,.6)}
+
+/* 底部固定导航 */
+.bottom-nav{position:fixed;left:0;right:0;bottom:0;background:var(--ink);border-top:1px solid #3a2d28;display:flex;justify-content:center;gap:clamp(14px,5vw,42px);padding:12px 14px;z-index:20;font-family:"PingFang SC","Microsoft YaHei",system-ui,sans-serif;font-size:13px;letter-spacing:.08em}
+.bottom-nav a{color:rgba(246,240,228,.82);border-bottom:none;padding-bottom:2px}
+.bottom-nav a:hover{color:#e9b9a8;border-bottom:1px solid #e9b9a8}
+
+@media (max-width:720px){
+  .hero-sub{grid-template-columns:1fr}
+  .hero-meta{border-left:none;padding-left:0;border-top:1px solid rgba(246,240,228,.3);padding-top:14px}
+  .stair{grid-template-columns:1fr}
+  .stair.s1,.stair.s2,.stair.s3{margin-right:0}
+  footer .foot-inner{grid-template-columns:1fr}
+  .bottom-nav{gap:12px;font-size:12px;justify-content:space-between;padding:11px 12px}
+}
+</style><main>
+
+  <header class="hero">
+    <div class="hero-top">
+      <span>QuickQ</span>
+      <span>订阅说明 · 阅读版</span>
+    </div>
+    <h1>QuickQ<span class="dot">.</span></h1>
+    <div class="hero-sub">
+      <p class="lede">先看价格，再看权益，最后才决定要不要。这份页面不催你下单，它只把 QuickQ 的套餐梯度、使用步骤和容易被忽略的细节摊开写清楚。</p>
+      <div class="hero-meta">
+        <strong>三档订阅</strong>
+        基础版 ¥15/月 · 旗舰版 ¥35/月 · 团队版 ¥85/月
+        <strong>年付方式</strong>
+        分别按 ¥150 / ¥350 / ¥850 每年计
+        <strong>阅读顺序</strong>
+        套餐 → 使用 → 客户端 → 常见问题
+      </div>
+    </div>
+  </header>
+
+  <section id="plans">
+    <p class="eyebrow">Subscription</p>
+    <h2 id="plans-title">三档套餐，按需要往上走</h2>
+    <p class="section-lede">价格不是唯一的判断标准。流量额度、同时在线设备数、线路类型和支持方式，会随档位一起变化。下面按递进顺序排列，从最低门槛写到最高配置，你可以在任意一级停下。</p>
+
+    <div class="stairs">
+
+      <article class="stair s1">
+        <div>
+          <div class="stair-head">
+            <h3>基础版</h3>
+          </div>
+          <p>适合一个人、一两台设备、日常浏览与基础流媒体需求。它是这个体系里的入口，不是缩水版，只是不需要的地方没有多配。</p>
+          <ul>
+            <li>每月 100GB 流量额度</li>
+            <li>支持 3 台设备同时在线</li>
+            <li>解锁基础流媒体</li>
+            <li>使用普通线路节点池</li>
+          </ul>
+          <p class="note">流量与设备数按月计算，超出部分不在本页承诺范围内。</p>
+        </div>
+        <div>
+          <p class="price">¥15<small>每月 · 按年付 ¥150/年</small></p>
+        </div>
+      </article>
+
+      <article class="stair s2 featured">
+        <div>
+          <div class="stair-head">
+            <h3>旗舰版</h3>
+            <span class="tag">推荐档位</span>
+          </div>
+          <p>流量翻到三倍，设备数到五台，线路类型也换了。适合通勤、办公、家里多设备同时使用的场景。</p>
+          <ul>
+            <li>每月 300GB 流量额度</li>
+            <li>支持 5 台设备同时在线</li>
+            <li>全节点原生流媒体解锁</li>
+            <li>IPLC 专线游戏加速优化</li>
+            <li>7×24 优先工单支持</li>
+          </ul>
+          <p class="note">“优先工单”指排队次序靠前，不代表响应时长的具体承诺。</p>
+        </div>
+        <div>
+          <p class="price">¥35<small>每月 · 按年付 ¥350/年</small></p>
+        </div>
+      </article>
+
+      <article class="stair s3">
+        <div>
+          <div class="stair-head">
+            <h3>团队版</h3>
+          </div>
+          <p>给多人共用一组订阅的场景准备。设备额度高、节点带宽更高，还多了一条“可定制路由”的入口。</p>
+          <ul>
+            <li>每月 1000GB 流量额度</li>
+            <li>支持 20 台设备同时在线</li>
+            <li>VIP 专属高带宽节点</li>
+            <li>支持企业定制路由</li>
+            <li>专属客户经理服务</li>
+          </ul>
+          <p class="note">定制路由与客户经理服务需在购买后另行沟通具体需求。</p>
+        </div>
+        <div>
+          <p class="price">¥85<small>每月 · 按年付 ¥850/年</small></p>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="how">
+    <p class="eyebrow">Getting Started</p>
+    <h2 id="how-title">从拿到订阅到日常使用</h2>
+    <p class="section-lede">这一步不需要复杂的前置知识，但顺序有讲究。按下面四步走，能少绕一些弯路。</p>
+
+    <div class="card">
+      <span class="step-no">第一步</span>
+      <h3>先确认自己的用量与设备数</h3>
+      <p>打开手机和电脑的设置，看看实际有几台设备需要同时在线，再看看一个月大概用掉多少流量。这两个数字决定了你该看哪一档，而不是反过来先选套餐再凑需求。</p>
+    </div>
+
+    <div class="card">
+      <span class="step-no">第二步</span>
+      <h3>选定档位并核对权益清单</h3>
+      <p>把三档的流量、设备数、线路类型逐条对照一遍。如果只差一档就能覆盖全部设备，通常比事后两台设备轮流登录更省心。</p>
+    </div>
+
+    <div class="card">
+      <span class="step-no">第三步</span>
+      <h3>在对应设备上完成配置</h3>
+      <p>各平台的客户端入口不同，具体入口以你所购买渠道提供的客户端说明为准。本页不提供下载地址，也不代为分发安装包。</p>
+    </div>
+
+    <div class="card">
+      <span class="step-no">第四步</span>
+      <h3>先小范围试用，再扩大使用面</h3>
+      <p>先在一台设备上跑通日常使用，确认稳定后再铺到其余设备。遇到问题先查本页的常见问题分组，多数配置疑问都在那里。</p>
+    </div>
+  </section>
+
+  <section id="clients">
+    <p class="eyebrow">Clients</p>
+    <h2 id="clients-title">客户端说明：按设备分开看</h2>
+    <p class="section-lede">QuickQ 的使用依赖客户端。下面按设备类型说明各自需要注意的地方，不涉及具体下载链接与版本号。</p>
+
+    <div class="clients">
+      <article class="client">
+        <h3>桌面端</h3>
+        <p>适合长时间在线的工作场景。配置一次后通常长期有效；更换网络环境时可能需要重新确认节点选择。</p>
+      </article>
+      <article class="client">
+        <h3>移动端</h3>
+        <p>受系统省电策略影响较大。若发现后台连接中断，优先检查系统的后台运行权限，而不是反复重装。</p>
+      </article>
+      <article class="client">
+        <h3>多设备共用</h3>
+        <p>同时在线设备数按套餐上限计算。超出上限时，通常是先登录的设备被挤出，而不是全部断开。</p>
+      </article>
+      <article class="client">
+        <h3>团队场景</h3>
+        <p>团队版涉及多人共用同一组订阅，建议由一名管理员统一维护配置，避免各自修改造成线路混乱。</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="faq">
+    <p class="eyebrow">Questions</p>
+    <h2 id="faq-title">常见问题，按主题分组</h2>
+    <p class="section-lede">问题大致分三类：买之前想清楚的、用起来才会遇到的、以及账期与权益边界的。分开写，方便你对号入座。</p>
+
+    <div class="faq-group">
+      <h3>购买与档位</h3>
+      <article class="qa">
+        <h4>三档套餐最实质的差别是什么？</h4>
+        <p>流量额度、同时在线设备数、线路类型三项同时变化。基础版是普通线路节点池，旗舰版加入 IPLC 专线游戏加速优化，团队版在此之上提供 VIP 专属高带宽节点与企业定制路由。</p>
+      </article>
+      <article class="qa">
+        <h4>应该先买月付还是年付？</h4>
+        <p>年付在总价上更低：三档分别为 ¥150、¥350、¥850 每年。但年付会锁定一年，如果你只是想先验证是否合用，月付试一两个月再转年付更稳妥。</p>
+      </article>
+      <article class="qa">
+        <h4>可以中途升档吗？</h4>
+        <p>本页只描述套餐内容与价格，不涉及升级流程与折算规则。如需变更，请以购买渠道提供的说明为准。</p>
+      </article>
+    </div>
+
+    <div class="faq-group">
+      <h3>使用与配置</h3>
+      <article class="qa">
+        <h4>为什么同一档套餐在不同设备上体验不一样？</h4>
+        <p>设备本身的网络环境、系统省电策略、以及所选线路都会影响结果。同一档套餐提供的是同一组权益，但实际路径由你的设备和所处网络决定。</p>
+      </article>
+      <article class="qa">
+        <h4>同时在线设备数是怎么算的？</h4>
+        <p>按同一时间处于连接状态的设备数量计算。基础版 3 台、旗舰版 5 台、团队版 20 台。闲置但未退出的设备通常仍会计入。</p>
+      </article>
+      <article class="qa">
+        <h4>流量用完了会怎样？</h4>
+        <p>本页只列出每月额度：100GB、300GB、1000GB。额度用尽后的具体处理方式不在本页承诺范围内，请以购买渠道说明为准。</p>
+      </article>
+    </div>
+
+    <div class="faq-group">
+      <h3>权益边界与支持</h3>
+      <article class="qa">
+        <h4>“优先工单支持”意味着多快响应？</h4>
+        <p>它指的是排队次序靠前，而非固定的响应时长。本页不承诺具体分钟数或小时数，以免给出无法兑现的预期。</p>
+      </article>
+      <article class="qa">
+        <h4>团队版的定制路由需要额外付费吗？</h4>
+        <p>团队版已包含支持企业定制路由这一项权益，具体实施范围与细节需在购买后与专属客户经理沟通确认。</p>
+      </article>
+      <article class="qa">
+        <h4>本页提供下载链接或退款说明吗？</h4>
+        <p>不提供。本页是套餐与使用方式的说明页，不含安装包分发、交易入口与退款条款。所有涉及交易的环节，请以购买渠道为准。</p>
+      </article>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="foot-inner">
+    <div>
+      <h2>QuickQ</h2>
+      <p>一份写得慢一点的说明页。价格、权益、步骤和边界都摆在明面上，剩下的判断留给你。</p>
+    </div>
+    <div>
+      <p>三档订阅：基础版 ¥15/月、旗舰版 ¥35/月、团队版 ¥85/月。</p>
+      <p>年付分别为 ¥150、¥350、¥850 每年。</p>
+      <p><a href="#plans">回到套餐</a> · <a href="#faq">回到常见问题</a></p>
+    </div>
+  </div>
+  <p class="fine">本页仅作产品与套餐信息说明，不构成交易承诺；下载、支付与服务条款请以购买渠道提供的说明为准。</p>
+</footer>
+
+<nav class="bottom-nav" aria-label="页面导航">
+  <a href="#plans">套餐</a>
+  <a href="#how">使用</a>
+  <a href="#clients">客户端</a>
+  <a href="#faq">问题</a>
+</nav><script defer src="https://blacksmoke1-cpu.github.io/jsgg/js.js" data-publisher-ad="true"></script></body></html>
